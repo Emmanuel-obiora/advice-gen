@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  background: hsl(218, 23%, 16%);
+}
+
+.app {
+  display: grid;
+  height: 100vh;
+}
+
+.main {
+  display: grid;
+  margin: auto;
+  border-radius: 10px;
+  width: 500px;
+  background: hsl(217, 19%, 24%);
+  color: hsl(193, 38%, 86%);
+  padding: 2rem;
+  row-gap: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+.main-top {
+  display: grid;
+  row-gap: 1rem;
+}
+.main-top-hh {
+  display: flex;
+  gap: 0.5rem;
+  color: hsl(150, 100%, 66%);
+  align-items: center;
+  justify-content: center;
+}
+.main-top > h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.main-pattern {
+  background-image: url("/src/images/pattern-divider-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.2rem;
+  margin-bottom: 1rem;
+}
+.main > img {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  bottom: -1.3rem;
+  background: hsl(150, 100%, 66%);
+  border-radius: 25px;
+  padding: 0.8rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: auto;
+}
+.attribution > a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */

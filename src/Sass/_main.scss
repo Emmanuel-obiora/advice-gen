@@ -1,0 +1,51 @@
+.main{
+    display: grid;
+    margin: auto;
+    border-radius: 10px;
+    width: 500px;
+    background: $Dark-Grayish-Blue;
+    color: $Light-Cyan;
+    padding: 2rem;
+    row-gap: 1.5rem;
+    text-align: center;
+    position: relative;
+
+    &-top{
+        display: grid;
+        row-gap: 1rem;
+
+        &-hh{
+            display: flex;
+            gap: .5rem;
+            color: $Neon-Green;
+            align-items: center;
+            justify-content: center;
+        }
+
+        & > h1{
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+    }
+
+    &-pattern{
+        background-image: url('/src/images/pattern-divider-desktop.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    &>img{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        position: absolute;
+        bottom: -1.3rem;
+        background: $Neon-Green;
+        border-radius: 25px;
+        padding: .8rem;
+    }
+}
