@@ -32,7 +32,9 @@ const Main = () => {
         </div>
 
         <span className='main-pattern'></span>
-        <img src={IconDice} alt="" onClick={advice} />
+        <div className="main-bottom" onClick={advice}>
+            <img src={IconDice} alt=""/>
+        </div>
     </main>
   )
 }
