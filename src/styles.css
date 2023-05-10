@@ -19,7 +19,7 @@ body {
 .main {
   display: grid;
   margin: auto auto 0 auto;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 450px;
   background: hsl(217, 19%, 24%);
   color: hsl(193, 38%, 86%);
@@ -27,6 +27,13 @@ body {
   row-gap: 1.5rem;
   text-align: center;
   position: relative;
+}
+@media (max-width: 37.5rem) {
+  .main {
+    width: 310px;
+    margin: auto;
+    padding: 1rem;
+  }
 }
 .main-top {
   display: grid;
@@ -51,6 +58,11 @@ body {
   background-size: contain;
   height: 1.2rem;
   margin-bottom: 1.5rem;
+}
+@media (max-width: 37.5rem) {
+  .main-pattern {
+    background-image: url("/src/images/pattern-divider-mobile.svg");
+  }
 }
 .main-bottom {
   display: flex;

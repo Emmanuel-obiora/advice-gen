@@ -1,7 +1,7 @@
 .main{
     display: grid;
     margin: auto auto 0 auto;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 450px;
     background: $Dark-Grayish-Blue;
     color: $Light-Cyan;
@@ -10,6 +10,11 @@
     text-align: center;
     position: relative;
 
+    @media(max-width: 37.5rem){
+        width: 310px;
+        margin: auto;
+        padding: 1rem;
+    }
 
     &-top{
         display: grid;
@@ -37,6 +42,10 @@
         background-size: contain;
         height: 1.2rem;
         margin-bottom: 1.5rem;
+
+        @media(max-width: 37.5rem){
+            background-image: url('/src/images/pattern-divider-mobile.svg');
+        }
     }
 
     &-bottom{
