@@ -69,7 +69,7 @@ body {
   align-self: center;
   justify-self: center;
   position: absolute;
-  bottom: -1.3rem;
+  bottom: -1.5rem;
   background: hsl(150, 100%, 66%);
   width: 3rem;
   height: 3rem;
@@ -79,6 +79,12 @@ body {
 }
 .main-bottom:hover {
   box-shadow: 0 1px 15px 4px hsl(150, 100%, 66%);
+}
+
+.loaderr {
+  display: flex;
+  align-self: center;
+  justify-self: center;
 }
 
 .attribution {
