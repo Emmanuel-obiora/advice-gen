@@ -58,8 +58,9 @@
         width: 3rem;
         height: 3rem;
         border-radius: 50%;
-        padding: 1rem;
         cursor: pointer;
+        align-items: center;
+        justify-content: center;
 
         &:hover{
             box-shadow: 0 1px 15px 4px $Neon-Green;

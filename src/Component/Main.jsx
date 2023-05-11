@@ -22,10 +22,7 @@ const Main = () => {
     }
 
     useEffect(()=> {
-        const interval = setInterval(()=>{
             advice();
-        }, 8000);
-        return () => clearInterval(interval);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
