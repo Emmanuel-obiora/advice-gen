@@ -13,14 +13,14 @@ body {
 
 .app {
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .main {
   display: grid;
   margin: auto auto 0 auto;
   border-radius: 10px;
-  width: 450px;
+  max-width: 450px;
   background: hsl(217, 19%, 24%);
   color: hsl(193, 38%, 86%);
   padding: 2rem;
@@ -30,7 +30,7 @@ body {
 }
 @media (max-width: 37.5rem) {
   .main {
-    width: 310px;
+    max-width: 310px;
     margin: auto;
     padding: 1rem;
   }
@@ -46,8 +46,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-.main-top > h1 {
-  font-size: 28px;
+.main-top-hh > h1 {
+  font-size: 16px;
+}
+.main-top > p {
+  font-size: 25px;
   font-weight: 800;
   line-height: 1.2;
 }

@@ -38,17 +38,17 @@ const Main = () => {
                 /> :
                 <div key={data.id} className="main-top">
                     <div className="main-top-hh">
-                        <small>Advice</small>
+                        <h1>Advice</h1>
                         <span>#{data.id}</span>
                     </div>
-                    <h1>"{data.advice}"</h1>
+                    <p>"{data.advice}"</p>
                 </div>
         }
 
         <span className='main-pattern'></span>
-        <div className="main-bottom" onClick={advice}>
+        <button className="main-bottom" onClick={advice}>
             <img src={IconDice} alt=""/>
-        </div>
+        </button>
     </main>
   )
 }

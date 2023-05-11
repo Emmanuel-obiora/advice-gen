@@ -2,7 +2,7 @@
     display: grid;
     margin: auto auto 0 auto;
     border-radius: 10px;
-    width: 450px;
+    max-width: 450px;
     background: $Dark-Grayish-Blue;
     color: $Light-Cyan;
     padding: 2rem;
@@ -11,7 +11,7 @@
     position: relative;
 
     @media(max-width: 37.5rem){
-        width: 310px;
+        max-width: 310px;
         margin: auto;
         padding: 1rem;
     }
@@ -26,10 +26,14 @@
             color: $Neon-Green;
             align-items: center;
             justify-content: center;
+
+            &>h1{
+                font-size: 16px;
+            }
         }
 
-        & > h1{
-            font-size: 28px;
+        & > p{
+            font-size: 25px;
             font-weight: 800;
             line-height: 1.2;
         }
